@@ -11,8 +11,8 @@ export const SCREEN_PAUSED = 'paused';
 export const SCREEN_BUSTED = 'busted';
 export const SCREEN_COMPLETE = 'complete';
 
-/** The panel's width; its height grows with its lines: room for the title, the lines and the prompt. */
-const PANEL = { width: 640, top: 140, line: 34, bottom: 76 };
+/** The panel's width; its height grows with its lines: room for the title, the lines and the prompt. Wide enough that the longest subtitle line fits inside it. */
+const PANEL = { width: 760, top: 140, line: 34, bottom: 76 };
 const MINIMAP = { width: 220, height: 156 };
 
 function cachedLabel(prefix) {
